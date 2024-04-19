@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - DigitalEvolution S.A</title>
+    <link rel="stylesheet" href="./css/styless.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <header>
+        <div class="Primerafila">
+            <h1>DIGITALEVOLUTION S.A</h1>
+        </div>
+
+        <!-- Segunda fila -->
+        <nav class="main-nav">
+            <a href="index.html">INICIO</a>
+            <a href="contactos.html">Contactos</a>
+            <a href="quienesomos.html">Quienes somos</a>
+            <a href="proyectos.html">Proyectos</a>
+           
+            
+        </nav>
+    </header>
+      <!-- Formulario de contacto -->
+      <div class="contacto" >
+          <form>
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+              <label for="for">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Escribí aquí tu apellido" required minlength="3">
+              <label for="for">Email:</label>
+              <input type="text" id="mail" name="mail" placeholder="Escribí aquí tu mail" required >
+              <label for="for">País:</label>
+              <select name="país" id="país">
+                        <option value="España">España</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Italia">Italia</option>
+              </select>
+              <label for="comentario">Comentario</label>
+              <textarea name="cometario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+
+              <label for="motivo">Motivo de contacto</label>
+              <select name="Mas información" id="Mas información">
+                <option value="España">Comerciales</option>
+                <option value="Paraguay">Asesoramiento</option>
+                <option value="Argentina">Agradecimiento</option>
+                <option value="Italia">Reglamos</option>
+                <input type="submit" value="Enviar">
+                </select>
+
+      </select>
+
+          </form>
+      </div>
+
+
+     <!-- Pie de página -->
+     <footer>
+        <div class="footer">
+                <div class="icon1">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <a href="https://www.linkedin.com/in/severiana-duarte"><i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pris_ci85"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            <nav class="footer-nav">
+
+                <!-- Lista de Compromisos -->
+                <ul class="footer-nav-list">
+                    <li>
+                        <h2 class="nav-title">Compromisos</h2>
+                    </li>
+                    <li><a href="#">Responsabilidad</a></li>
+                    <li><a href="#">Honestidad</a></li>
+                    <li><a href="#">Integridad</a></li>
+                </ul>
+
+                <!-- Lista de Servicios -->
+                <ul class="footer-nav-list">
+                    <li>
+                        <h2 class="nav-title">Services</h2>
+                    </li>
+                    <li><a href="#">Creación</a></li>
+                    <li><a href="#">Mantenimiento de software</a></li>
+                    <li><a href="#">Aplicaciones informáticas</a></li>
+                </ul>
+
+            </nav>
+            <p class="copyright">
+                Copyright &copy; 2023 DigitalEvolution S.A
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
